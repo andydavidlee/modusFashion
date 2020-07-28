@@ -1,0 +1,242 @@
+@charset "UTF-8";
+#wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wrapper header {
+    width: 960px;
+    height: 75px;
+    background-color: #000000;
+    float: left;
+}
+#wrapper header main {
+    float: left;
+    margin-left: 10px;
+    font-family: advent-pro;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-style: normal;
+    width: 310px;
+}
+#wrapper header #logo {
+    width: 310px;
+    margin-left: 10px;
+    float: left;
+    color: #FFFFFF;
+    font-family: advent-pro;
+    font-style: normal;
+    font-size: 12px;
+}
+#wrapper #newsletter {
+    width: 960px;
+    height: 40px;
+    float: left;
+    background-color: #ED1C24;
+    color: #FEFEFE;
+    font-family: gruppo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+#wrapper #newsletter form {
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+#wrapper #newsletter #submit {
+    float: right;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.imgclose {
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+#wrapper #content #Audio {
+    width: 960px;
+    float: left;
+}
+#wrapper header #sidebar {
+    margin-right: 10px;
+    float: right;
+    width: 500px;
+}
+.floatright {
+    float: right;
+    margin-top: 60px;
+}
+#sidebar ul li {
+    float: right;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: gruppo;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+li a:hover {
+    text-decoration: line-through;
+}
+#wrapper #content {
+    width: 960px;
+    float: left;
+}
+.backgroundImage  {
+    background-image: url(Assets/Images/Index_B1.jpg);
+    height: 375px;
+    min-width: 356px;
+}
+#content main section {
+    width: 840px;
+    margin-left: 60px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 60px;
+}
+.imageright {
+    float: right;
+}
+#content main h1 {
+    color: #FFE700;
+    font-size: 102px;
+    font-family: "Hanalei Fill";
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+main #story h2 {
+    text-align: center;
+    font-family: "Unica One";
+    font-size: 30px;
+    text-decoration: underline;
+}
+main #story p {
+    text-align: center;
+    font-family: gruppo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main section table {
+    color: #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+#content main #story {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #ECECE4;
+    height: 380px;
+}
+#content main #storyimage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.imgcenterright {
+    margin-left: 450px;
+}
+#content main #contact {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background-color: #ECECE4;
+    margin-bottom: 50px;
+}
+main #contact #trading {
+    width: 190px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+main #contact #address {
+    width: 190px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    text-align: right;
+}
+main #contact #question {
+    width: 400px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+main #contact #form {
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 200px;
+    float: left;
+}
+.textfieldright {
+    float: right;
+}
+#content main #map {
+    float: right;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+#wrapper footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 960px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 10px;
+    font-family: gruppo;
+    float: left;
+}
+#wrapper footer #socialmedia {
+    float: right;
+    box-sizing: content-box;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+#wrapper footer #copyright {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+td {
+    border: solid 2px black;
+}
+#form p #textarea {
+    width: 375px;
+    height: 100px;
+    float: right;
+}
+.underline {
+    text-decoration: underline;
+}
+
+@media screen{
+}
